@@ -1,5 +1,6 @@
 # NashornPlusAPI
 
+[![](https://jitpack.io/v/broken1arrow/NashornPlusAPI.svg)](https://jitpack.io/#broken1arrow/NashornPlusAPI)
 
 ## You use this api to NashornPlus.
 
