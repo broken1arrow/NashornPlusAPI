@@ -6,7 +6,7 @@ import javax.script.ScriptEngineFactory;
 import javax.script.ScriptEngineManager;
 
 public final class NashornPlusPlugin extends JavaPlugin {
-	
+
 	@Override
 	public void onEnable() {
 
@@ -29,6 +29,10 @@ public final class NashornPlusPlugin extends JavaPlugin {
 		} catch (final javax.script.ScriptException ex) {
 			ex.printStackTrace();
 		}*/
+	}
+
+	public static NashornPlusPlugin getInstance() {
+		return null;
 	}
 
 	public ScriptEngineManager getEngineManager() {

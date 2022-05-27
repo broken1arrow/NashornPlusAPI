@@ -31,6 +31,10 @@ public final class NashornPlusBungee extends Plugin {
 		}*/
 	}
 
+	public static NashornPlusBungee getInstance() {
+		return null;
+	}
+	
 	public ScriptEngineManager getEngineManager() {
 		return null;
 	}
