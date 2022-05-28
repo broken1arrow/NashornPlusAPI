@@ -8,7 +8,7 @@ You have acces to this two methods. Author to NashornPlus is kangarko. Use newes
 The offical NashornPlus from kangarko will not work with this api. 
 
 ```
-// this method is used to get the engine
+// this method is used to use the engine
 /*
                 final ScriptEngineManager engineManager = getEngineManager(); 
 		final javax.script.ScriptEngine engine = engineManager.getEngineByName("Nashorn");
@@ -22,6 +22,10 @@ The offical NashornPlus from kangarko will not work with this api.
 		}
 
 */
+// this method´s to acces the engine and factory.
+        public NashornPlusPlugin getInstance(){
+	        return null;
+	}
 	public ScriptEngineManager getEngineManager() {
 		return null;
 	}
